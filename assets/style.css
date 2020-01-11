@@ -1,25 +1,32 @@
+html {
+    background-image: url("https://images5.alphacoders.com/456/thumb-1920-456536.jpg");
+    background-color: rgba(255, 255, 255, 0);
+}
+
 body {
     font-family: 'Ibarra Real Nova', serif;
+    background-color: rgba(255, 255, 255, 0);   
 }
 
 #form-container {
-    background-color: rgb(201, 201, 201);
+    background-color: rgba(255, 255, 255, 0.658);
     width: 45%;
-    height: 550px; 
-    margin: 0 auto;
+    height: 400px; 
+    margin: 10px auto;
     border-radius: 10px;
     border: 1px solid rgb(0, 0, 0);
     padding: 25px;
-    
+    font-size: 16px;
 }
 
 .header {
     margin: 0 auto;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     width: 45%;
     height: 100px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.555);
     border-radius: 10px;
+    margin-top: 5px;
 }
 
 #header-text {
@@ -27,5 +34,35 @@ body {
     justify-content: center;
     color: white;
     font-size: 45px;
-    padding-top: 10px;
+    padding-top: 12px;
+}
+
+.btn {
+    margin-bottom: 5px;
+}
+
+#article-container{
+    height: 100px;
+    margin: 10px auto;
+    border-radius: 10px;
+    width: 45%;
+    background-color: rgba(255, 255, 255, 0.658);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 25px;
+    font-size: 16px;
+    
+
+}
+
+.div-title {
+    background-color: rgba(36, 36, 36, 0.89);
+    color: rgb(255, 255, 255);
+    height: 25px;
+    margin: 0 auto -10px auto;
+    width: 45%;
+    padding-left: 10px;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    font-size: 18px;
+    
 }
