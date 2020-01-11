@@ -53,3 +53,16 @@ body {
     
 
 }
+
+.div-title {
+    background-color: rgba(36, 36, 36, 0.89);
+    color: rgb(255, 255, 255);
+    height: 25px;
+    margin: 0 auto -10px auto;
+    width: 45%;
+    padding-left: 10px;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    font-size: 18px;
+    
+}
