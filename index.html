@@ -9,11 +9,33 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="header"></div>
-    <div class="container" id="main-container">
+    <div class="header">
+        <p id="header-text">New York Times Search</p>
+    </div>
+    <div class="container" id="form-container">
+        
+        <form>
+            <div class="form-group">
+              <label for="search-term">Search Term:</label>
+              <input type="input" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <label for="number-retrieve">Number of Records to Retrieve:</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </form>
+
+
+        
+    
 
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
