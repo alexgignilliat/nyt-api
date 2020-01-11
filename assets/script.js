@@ -1,4 +1,3 @@
-
 $(".btn-secondary").on("click", function() {
 
 var SearchTerm = document.getElementById("search-term-form").value;
